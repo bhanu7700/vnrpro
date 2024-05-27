@@ -46,41 +46,146 @@ const page = () => {
           Specifications
         </h1>
 
-        <div className=" grid lg:grid-cols-2 grid-cols-1 ">
-          <div className="flex flex-col justify-center items-center">
-            <h1 className="text-[25px] max-md:text-[20px] font-medium py-4">
-              Computer Science Engineering(CSE)
-            </h1>
-            <ul className="list-disc">
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Computer Science and Engineering- Artificial Intelligence and
-                  Machine Learning
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1> Computer Science and Engineering- Big Data</h1>
-              </li>
-            </ul>
-          </div>
-
-          <div className="flex flex-col justify-center items-center">
-            <h1 className="text-[25px] max-md:text-[20px] font-medium py-4">
-              Electrical Communicational Engineering(CSE)
-            </h1>
-            <ul className="list-disc">
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Computer Science and Engineering- Artificial Intelligence and
-                  Machine Learning
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1> Computer Science and Engineering- Big Data</h1>
-              </li>
-            </ul>
+        <div>
+          <div class="mx-auto lg:max-w-4xl ">
+            <div class="space-y-6">
+              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
+                  Horticulture
+                  <div class="text-secondary-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="block h-5 w-5 transition-all duration-300 group-open:-rotate-90"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </div>
+                </summary>
+                <div class="px-6 pb-6 text-secondary-500 ">
+                  <h1 className="my-1 mt-2 font-semibold text-[16px] text-[#c10a16] ">
+                    Overview:
+                  </h1>
+                  <p className="my-1">
+                    Horticulture is the science and art of cultivating plants
+                    for food, beauty, and environmental enhancement. It
+                    encompasses the growing of fruits, vegetables, flowers, and
+                    ornamental plants, contributing significantly to food
+                    security, economic development, and aesthetic improvement of
+                    landscapes.
+                  </p>
+                </div>
+              </details>
+              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
+                  Bio Technology
+                  <div class="text-secondary-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="block h-5 w-5 transition-all duration-300 group-open:-rotate-90"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </div>
+                </summary>
+                <div class="px-6 pb-6 text-secondary-500">
+                  <h1 className="my-1 mt-2 font-semibold text-[16px] text-[#c10a16] ">
+                    Overview:
+                  </h1>
+                  <p className="my-1">
+                    Biotechnology harnesses biological systems, organisms, and
+                    processes to develop innovative products and technologies
+                    that improve human health, agriculture, and the environment.
+                    This interdisciplinary field combines principles of biology,
+                    chemistry, and engineering to solve complex problems and
+                    create sustainable solutions.
+                  </p>
+                </div>
+              </details>
+              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
+                  Food Technology
+                  <div class="text-secondary-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="block h-5 w-5 transition-all duration-300 group-open:-rotate-90"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </div>
+                </summary>
+                <div class="px-6 pb-6 text-secondary-500">
+                  <h1 className="my-1 mt-2 font-semibold text-[16px] text-[#c10a16] ">
+                    Overview:
+                  </h1>
+                  <p className="my-1">
+                    Food technology involves the application of scientific and
+                    engineering principles to the processing, preservation,
+                    packaging, and distribution of food products. It aims to
+                    enhance food quality, safety, nutrition, and sustainability,
+                    ensuring a reliable supply of healthy and appetizing food to
+                    consumers.
+                  </p>
+                </div>
+              </details>
+              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
+                  Forensic Science
+                  <div class="text-secondary-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="block h-5 w-5 transition-all duration-300 group-open:-rotate-90"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </div>
+                </summary>
+                <div class="px-6 pb-6 text-secondary-500">
+                  <h1 className="my-1 mt-2 font-semibold text-[16px] text-[#c10a16] ">
+                    Overview:
+                  </h1>
+                  <p className="my-1">
+                    Forensic science applies scientific principles and
+                    techniques to the investigation of crimes and the
+                    administration of justice. It involves the collection,
+                    preservation, and analysis of physical evidence to support
+                    criminal investigations, legal proceedings, and law
+                    enforcement activities.
+                  </p>
+                </div>
+              </details>
+            </div>
           </div>
         </div>
       </div>

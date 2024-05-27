@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdMailOpen } from "react-icons/io";
@@ -7,16 +7,31 @@ import { FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io";
 import { FaInstagramSquare } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactUs = () => {
   const [isFormValid, setIsFormValid] = useState(false);
   const [newComment, setNewComment] = useState({
     name: "",
-    course:"",
-    phone:"",
+    course: "",
+    phone: "",
     email: "",
     message: "",
   });
+
+  const notify = () => {
+    toast.success("Thanks for Reaching Us !", {
+      position: "bottom-right",
+    });
+  };
+
+  const failNotify = () => {
+    toast.warn("Something Went Wrong !", {
+      position: "bottom-right",
+    });
+  };
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
@@ -24,14 +39,40 @@ const ContactUs = () => {
       ...newComment,
       [name]: value,
     });
-    console.log(newComment)
     setIsFormValid(checkFormValidity());
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_3qdh64d",
+        "template_bay3usv",
+        "#myform",
+        "5yFVLN4CZ4M9UYPP4"
+      )
+      .then((message) => {
+        console.log(message);
+        setNewComment({
+          name: "",
+          course: "",
+          phone: "",
+          email: "",
+          message: "",
+        });
+        notify();
+      })
+      .catch((err) => {
+        console.log(`Error:${err}`);
+        failNotify();
+      });
   };
 
   const checkFormValidity = () => {
     const { name, email, message } = newComment;
     return name.trim() !== "" && email.trim() !== "" && message.trim() !== "";
   };
+
   return (
     <div className="contact ">
       <div className="padding-x padding-y flex max-md:flex-col ">
@@ -47,7 +88,11 @@ const ContactUs = () => {
                 </p>
               </div>
               <div className=" md:w-2/3 mx-auto">
-                <div className="flex flex-wrap -m-2">
+                <form
+                  onSubmit={handleSubmit}
+                  className="flex flex-wrap -m-2"
+                  id="myform"
+                >
                   <div className="p-2 w-[50%] max-lg:w-[100%]  ">
                     <div className="relative flex flex-col items-start gap-3">
                       <label
@@ -111,11 +156,11 @@ const ContactUs = () => {
                         Email
                       </label>
                       <input
-                         type="email"
-                         id="email"
-                         name="email"
-                         value={newComment.email}
-                         onChange={handleInputChange}
+                        type="email"
+                        id="email"
+                        name="email"
+                        value={newComment.email}
+                        onChange={handleInputChange}
                         className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
                     </div>
@@ -138,11 +183,15 @@ const ContactUs = () => {
                     </div>
                   </div>
                   <div className="p-2 w-full">
-                    <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                    <button
+                      disabled={!isFormValid}
+                      type="submit"
+                      className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                    >
                       Send
                     </button>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
           </section>
@@ -183,6 +232,7 @@ const ContactUs = () => {
           </div>
         </div>
       </div>
+      <ToastContainer className="z-50" />
     </div>
   );
 };

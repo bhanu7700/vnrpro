@@ -40,48 +40,6 @@ const page = () => {
             <img src="/images/mbbs2.jpg" alt="engineering" />
           </div>
         </div>
-
-        <h1 className="text-[40px] max-md:text-[30px] text-[#c10a16] font-semibold py-5 mt-10 flex  justify-center">
-          Specifications
-        </h1>
-
-        <div className=" grid lg:grid-cols-2 grid-cols-1 ">
-          <div className="flex flex-col justify-center items-center">
-            <h1 className="text-[25px] max-md:text-[20px] font-medium py-4">
-              Computer Science Engineering(CSE)
-            </h1>
-            <ul className="list-disc">
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Computer Science and Engineering- Artificial Intelligence and
-                  Machine Learning
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1> Computer Science and Engineering- Big Data</h1>
-              </li>
-            </ul>
-          </div>
-
-          <div className="flex flex-col justify-center items-center">
-            <h1 className="text-[25px] max-md:text-[20px] font-medium py-4">
-              Electrical Communicational Engineering(CSE)
-            </h1>
-            <ul className="list-disc">
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Computer Science and Engineering- Artificial Intelligence and
-                  Machine Learning
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1> Computer Science and Engineering- Big Data</h1>
-              </li>
-            </ul>
-          </div>
-        </div>
       </div>
     </div>
   );

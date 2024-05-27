@@ -1,4 +1,5 @@
-import React from "react";
+"use client"
+import React, { useState } from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { IoMdMailOpen } from "react-icons/io";
 import { MdAddIcCall } from "react-icons/md";
@@ -6,8 +7,72 @@ import { FaFacebook } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io";
 import { FaInstagramSquare } from "react-icons/fa";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const page = () => {
+  const [isFormValid, setIsFormValid] = useState(false);
+  const [newComment, setNewComment] = useState({
+    name: "",
+    course: "",
+    phone: "",
+    email: "",
+    message: "",
+  });
+
+  const notify = () => {
+    toast.success("Thanks for Reaching Us !", {
+      position: "bottom-right",
+    });
+  };
+
+  const failNotify = () => {
+    toast.warn("Something Went Wrong !", {
+      position: "bottom-right",
+    });
+  };
+
+  const handleInputChange = (event) => {
+    const { name, value } = event.target;
+    setNewComment({
+      ...newComment,
+      [name]: value,
+    });
+    setIsFormValid(checkFormValidity());
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_3qdh64d",
+        "template_bay3usv",
+        "#myform",
+        "5yFVLN4CZ4M9UYPP4"
+      )
+      .then((message) => {
+        console.log(message);
+        setNewComment({
+          name: "",
+          course: "",
+          phone: "",
+          email: "",
+          message: "",
+        });
+        notify();
+      })
+      .catch((err) => {
+        console.log(`Error:${err}`);
+        failNotify();
+      });
+  };
+
+  const checkFormValidity = () => {
+    const { name, email, message } = newComment;
+    return name.trim() !== "" && email.trim() !== "" && message.trim() !== "";
+  };
+
   return (
     <div>
       <div className="contact1 h-[450px] flex justify-center items-center bg-cover ">
@@ -15,20 +80,25 @@ const page = () => {
           Contact Us
         </h1>
       </div>
+      <div className=" ">
       <div className="padding-x padding-y flex max-md:flex-col ">
-        <div className="form-sec w-[50%] max-lg:w-[100%] contactform">
-          <section className="text-gray-700 body-font relative px-2 max-md:px-4 ">
+        <div className="form-sec w-[50%] max-lg:w-[100%] bg-[#202238] text-white ">
+          <section className=" body-font relative px-2 max-md:px-4  ">
             <div className="container  px-2  py-10  mx-auto">
               <div className="flex flex-col text-center w-full mb-12 gap-2">
-                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
+                <h1 className="sm:text-3xl text-2xl font-medium  mb-4 text-white">
                   Contact Us
                 </h1>
                 <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
                   Send a message
                 </p>
               </div>
-              <div className="lg:w-1/2 md:w-2/3 mx-auto">
-                <div className="flex flex-wrap -m-2">
+              <div className=" md:w-2/3 mx-auto">
+                <form
+                  onSubmit={handleSubmit}
+                  className="flex flex-wrap -m-2"
+                  id="myform"
+                >
                   <div className="p-2 w-[50%] max-lg:w-[100%]  ">
                     <div className="relative flex flex-col items-start gap-3">
                       <label
@@ -41,6 +111,8 @@ const page = () => {
                         type="text"
                         id="name"
                         name="name"
+                        value={newComment.name}
+                        onChange={handleInputChange}
                         className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
                     </div>
@@ -54,9 +126,11 @@ const page = () => {
                         Preffered Course
                       </label>
                       <input
-                        type="email"
-                        id="email"
-                        name="email"
+                        type="text"
+                        id="course"
+                        name="course"
+                        value={newComment.course}
+                        onChange={handleInputChange}
                         className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
                     </div>
@@ -71,8 +145,10 @@ const page = () => {
                       </label>
                       <input
                         type="text"
-                        id="name"
-                        name="name"
+                        id="phone"
+                        name="phone"
+                        value={newComment.phone}
+                        onChange={handleInputChange}
                         className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
                     </div>
@@ -89,6 +165,8 @@ const page = () => {
                         type="email"
                         id="email"
                         name="email"
+                        value={newComment.email}
+                        onChange={handleInputChange}
                         className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                       />
                     </div>
@@ -104,16 +182,22 @@ const page = () => {
                       <textarea
                         id="message"
                         name="message"
+                        value={newComment.message}
+                        onChange={handleInputChange}
                         className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
                       ></textarea>
                     </div>
                   </div>
                   <div className="p-2 w-full">
-                    <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">
+                    <button
+                      disabled={!isFormValid}
+                      type="submit"
+                      className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+                    >
                       Send
                     </button>
                   </div>
-                </div>
+                </form>
               </div>
             </div>
           </section>
@@ -154,6 +238,8 @@ const page = () => {
           </div>
         </div>
       </div>
+      <ToastContainer className="z-50" />
+    </div>
     </div>
   );
 };
