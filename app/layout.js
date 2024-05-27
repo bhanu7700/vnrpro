@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <link rel="shortcut icon" href="/images/favicon.ico" />
         <link
           rel="stylesheet"
           href="https://unpkg.com/flowbite@1.5.1/dist/flowbite.min.css"
