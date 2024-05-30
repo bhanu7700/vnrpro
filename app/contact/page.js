@@ -103,7 +103,7 @@ const page = () => {
                     <div className="relative flex flex-col items-start gap-3">
                       <label
                         for="name"
-                        className="leading-7 text-sm text-gray-600  "
+                        className="leading-7 text-sm text-gray-300  "
                       >
                         Name
                       </label>
@@ -121,7 +121,7 @@ const page = () => {
                     <div className="relative flex flex-col items-start gap-3">
                       <label
                         for="email"
-                        className="leading-7 text-sm text-gray-600"
+                        className="leading-7 text-sm text-gray-300"
                       >
                         Preffered Course
                       </label>
@@ -139,7 +139,7 @@ const page = () => {
                     <div className="relative flex flex-col items-start gap-3">
                       <label
                         for="name"
-                        className="leading-7 text-sm text-gray-600"
+                        className="leading-7 text-sm text-gray-300"
                       >
                         Phone
                       </label>
@@ -157,7 +157,7 @@ const page = () => {
                     <div className="relative flex flex-col items-start gap-3">
                       <label
                         for="email"
-                        className="leading-7 text-sm text-gray-600"
+                        className="leading-7 text-sm text-gray-300"
                       >
                         Email
                       </label>
@@ -175,7 +175,7 @@ const page = () => {
                     <div className="relative flex flex-col items-start gap-3">
                       <label
                         for="message"
-                        className="leading-7 text-sm text-gray-600"
+                        className="leading-7 text-sm text-gray-300"
                       >
                         Message
                       </label>

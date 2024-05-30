@@ -105,7 +105,7 @@ export default function CarouselSec() {
       >
         <SwiperSlide className=" swiper-slide animeslide-slide">
           <img
-            src="/images/agri5.jpg"
+            src="/images/agri6.jpg"
             alt="Caroucel"
             className="w-full h-full   z-0 object-cover"
           />
@@ -132,7 +132,7 @@ export default function CarouselSec() {
         </SwiperSlide>
         <SwiperSlide className=" swiper-slide animeslide-slide">
           <img
-            src="/images/engineering1.jpg"
+            src="/images/engineering4.jpg"
             alt="Caroucel"
             className="w-full  h-full   z-0 object-cover"
           />
@@ -159,7 +159,7 @@ export default function CarouselSec() {
         </SwiperSlide>
         <SwiperSlide className=" swiper-slide animeslide-slide">
           <img
-            src="/images/mbbs1.jpg"
+            src="/images/mbbs3.jpg"
             alt="Caroucel"
             className="w-full h-full   z-0 object-cover"
           />
@@ -169,11 +169,11 @@ export default function CarouselSec() {
               MBBS Courses
             </h1>
             <p class="animeslide-desc" data-animate="bottom">
-              Delve into the fascinating world of agriculture with our Bachelor
-              of Science (BSc) in Agriculture courses. Rooted in scientific
-              principles and hands-on experience, our programs offer a
-              comprehensive education in crop cultivation, soil management,
-              livestock production, and sustainable farming practices.
+              Embark on a rewarding career in medicine with our comprehensive
+              MBBS courses. Designed for aspiring doctors, these programs
+              provide rigorous training in medical science, clinical skills, and
+              patient care, ensuring you are well-prepared for a successful
+              medical career.
               <button
                 data-modal-target="default-modal"
                 data-modal-toggle="default-modal"
@@ -186,7 +186,7 @@ export default function CarouselSec() {
         </SwiperSlide>
         <SwiperSlide className=" swiper-slide animeslide-slide">
           <img
-            src="/images/medicine1.jpg"
+            src="/images/medicine3.jpg"
             alt="Caroucel"
             className="w-full  h-full  z-0 object-cover  "
           />
@@ -202,10 +202,12 @@ export default function CarouselSec() {
               solutions, preparing you for a fulfilling career in the medical
               field.
               <button
-              data-modal-target="default-modal"
-              data-modal-toggle="default-modal"
-              type="button"
-              >Apply Now</button>
+                data-modal-target="default-modal"
+                data-modal-toggle="default-modal"
+                type="button"
+              >
+                Apply Now
+              </button>
             </p>
           </div>
         </SwiperSlide>

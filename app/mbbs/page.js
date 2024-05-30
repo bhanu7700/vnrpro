@@ -1,9 +1,15 @@
 import React from "react";
 
+export const metadata = {
+  title: "VNR Educational Services",
+  description:
+    "Established with a passion for empowering students to reach their full potential, we are dedicated to providing comprehensive consultancy services tailored to the unique needs of undergraduate students",
+};
+
 const page = () => {
   return (
     <div>
-      <div className="coursemain flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
+      <div className="coursmbbs flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
         <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "}
         <h1 className="text-[40px] relative text-white"> -MBBS</h1>
       </div>
@@ -37,7 +43,156 @@ const page = () => {
             </p>
           </div>
           <div className="w-[50%] max-md:w-[100%] px-10 max-md:px-2">
-            <img src="/images/mbbs2.jpg" alt="engineering" />
+            <img src="/images/medicine.jpg" alt="engineering" />
+          </div>
+        </div>
+
+        <h1 className="text-[40px] max-md:text-[30px] text-[#c10a16] font-semibold py-5 mt-10 flex  justify-center">
+          Specifications
+        </h1>
+
+        <div>
+          <div class="mx-auto lg:max-w-4xl ">
+            <div class="space-y-6">
+              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
+                  Bachelor of Dental Surgery(BDS)
+                  <div class="text-secondary-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="block h-5 w-5 transition-all duration-300 group-open:-rotate-90"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </div>
+                </summary>
+                <div class="px-6 pb-6 text-secondary-500 ">
+                  <h1 className="my-1 mt-2 font-semibold text-[18px] text-[#c10a16] ">
+                    Overview:
+                  </h1>
+                  <p className="my-1">
+                    The Bachelor of Dental Surgery (BDS) is a professional
+                    degree program that prepares students for a career in
+                    dentistry. It encompasses comprehensive training in the
+                    diagnosis, prevention, and treatment of oral diseases, as
+                    well as the restoration and maintenance of oral health.
+                  </p>
+                </div>
+              </details>
+              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
+                  Bachelor of Veterinary Science(BVS)
+                  <div class="text-secondary-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="block h-5 w-5 transition-all duration-300 group-open:-rotate-90"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </div>
+                </summary>
+                <div class="px-6 pb-6 text-secondary-500">
+                  <h1 className="my-1 mt-2 font-semibold text-[18px] text-[#c10a16] ">
+                    Overview:
+                  </h1>
+                  <p className="my-1">
+                    Our BVSc programs cover a wide range of subjects, including
+                    anatomy, physiology, pathology, and pharmacology, coupled
+                    with extensive hands-on clinical experience. With guidance
+                    from experienced faculty and access to state-of-the-art
+                    veterinary facilities, you'll gain the skills and expertise
+                    needed to excel in the veterinary field.
+                  </p>
+                </div>
+              </details>
+              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
+                  Bachelor of Homeopathic Medicine and Surgery(BHMS)
+                  <div class="text-secondary-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="block h-5 w-5 transition-all duration-300 group-open:-rotate-90"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </div>
+                </summary>
+                <div class="px-6 pb-6 text-secondary-500">
+                  <h1 className="my-1 mt-2 font-semibold text-[18px] text-[#c10a16] ">
+                    Overview:
+                  </h1>
+                  <p className="my-1">
+                    Our BHMS programs cover a wide range of subjects, including
+                    homeopathic philosophy, materia medica, repertory, anatomy,
+                    physiology, and pathology, combined with practical training
+                    in homeopathic treatment methods. With guidance from
+                    experienced faculty and access to modern clinical
+                    facilities, you'll acquire the knowledge and skills
+                    necessary to excel in homeopathic medicine.
+                  </p>  
+                </div>
+              </details>
+              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
+                  Bachelor of Ayurvedic Medicine and Surgery(BAMS)
+                  <div class="text-secondary-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="block h-5 w-5 transition-all duration-300 group-open:-rotate-90"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </div>
+                </summary>
+                <div class="px-6 pb-6 text-secondary-500">
+                  <h1 className="my-1 mt-2 font-semibold text-[18px] text-[#c10a16] ">
+                    Overview:
+                  </h1>
+                  <p className="my-1">
+                    Our BAMS programs cover a wide range of subjects, including
+                    Ayurvedic principles, herbal medicine, anatomy, physiology,
+                    and pathology, along with practical training in Ayurvedic
+                    treatments and therapies. Guided by experienced faculty and
+                    supported by well-equipped facilities, you'll gain the
+                    skills and expertise needed to excel in the field of
+                    Ayurvedic medicine. well as the restoration and maintenance
+                    of oral health.
+                  </p>
+                </div>
+              </details>
+            </div>
           </div>
         </div>
       </div>

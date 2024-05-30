@@ -1,9 +1,15 @@
 import React from "react";
 
+export const metadata = {
+  title: "VNR Educational Services",
+  description:
+    "Established with a passion for empowering students to reach their full potential, we are dedicated to providing comprehensive consultancy services tailored to the unique needs of undergraduate students",
+};
+
 const page = () => {
   return (
     <div>
-      <div className="coursemain flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
+      <div className="coursagri flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
         <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "}
         <h1 className="text-[40px] relative text-white"> -BSC Agriculture</h1>
       </div>

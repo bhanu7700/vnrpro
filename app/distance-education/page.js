@@ -1,5 +1,11 @@
 import React from "react";
 
+export const metadata = {
+  title: "VNR Educational Services",
+  description:
+    "Established with a passion for empowering students to reach their full potential, we are dedicated to providing comprehensive consultancy services tailored to the unique needs of undergraduate students",
+};
+
 const page = () => {
   return (
     <div>

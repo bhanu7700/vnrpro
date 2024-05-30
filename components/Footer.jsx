@@ -26,7 +26,7 @@ const Footer = () => {
               </div>
             </div>
             <div class=" w-3/12 max-md:w-full px-4 mb-4">
-              <h1 className="mb-3">ADDRESS</h1>
+              <h1 className="mb-3 text-white">ADDRESS</h1>
 
               <p>
                 Flat #206,City Center Complex, Beside South India Shopping Mall,
@@ -36,13 +36,13 @@ const Footer = () => {
             <div class=" w-6/12 max-md:w-full  px-4">
               <div class="flex flex-wrap items-top mb-6 max-md:gap-4">
                 <div class=" w-6/12 max-md:w-full  ml-auto">
-                  <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
+                  <span class="block uppercase text-white text-sm font-semibold mb-2">
                     Useful Links
                   </span>
                   <ul class="list-unstyled">
                   <li>
                       <Link
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        class="text-blueGray-600 hover:text-white font-semibold block pb-2 text-sm"
                         href="/"
                       >
                         Home
@@ -50,18 +50,27 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
-                        href="/about"
+                        class="text-blueGray-600 hover:text-white font-semibold block pb-2 text-sm"
+                        href="/aboutus"
                       >
                         About Us
                       </Link>
                     </li>
                     <li>
                       <Link
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        class="text-blueGray-600 hover:text-white font-semibold block pb-2 text-sm"
                         href="/contact"
                       >
                         Contact Us
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link
+                        class="text-blueGray-600 hover:text-white font-semibold block pb-2 text-sm"
+                        href="/privacy"
+                      >
+                        Privacy Policy
                       </Link>
                     </li>
                     
@@ -69,13 +78,13 @@ const Footer = () => {
                   </ul>
                 </div>
                 <div class="w-6/12 max-md:w-full">
-                  <span class="block uppercase text-blueGray-500 text-sm font-semibold mb-2">
+                  <span class="block uppercase text-white text-sm font-semibold mb-2">
                     Cources
                   </span>
                   <ul class="list-unstyled">
                     <li>
                       <Link
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        class="text-blueGray-600 hover:text-white font-semibold block pb-2 text-sm"
                         href="/engineering"
                       >
                         Engineering
@@ -83,7 +92,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        class="text-blueGray-600 hover:text-white font-semibold block pb-2 text-sm"
                         href="/agriculture"
                       >
                         BSC Agriculture
@@ -91,7 +100,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        class="text-blueGray-600 hover:text-white font-semibold block pb-2 text-sm"
                         href="/medicine"
                       >
                         Medical Sciences
@@ -99,7 +108,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        class="text-blueGray-600 hover:text-white font-semibold block pb-2 text-sm"
                         href="/mbbs"
                       >
                         MBBS
@@ -107,7 +116,7 @@ const Footer = () => {
                     </li>
                     <li>
                       <Link
-                        class="text-blueGray-600 hover:text-blueGray-800 font-semibold block pb-2 text-sm"
+                        class="text-blueGray-600 hover:text-white font-semibold block pb-2 text-sm"
                         href="/distance-education"
                       >
                         Distance Education
@@ -132,7 +141,7 @@ const Footer = () => {
                VNR Edu Serivices
                 {/* <a
                   href="https://www.creative-tim.com?ref=njs-profile"
-                  class="text-blueGray-500 hover:text-blueGray-800"
+                  class="text-blueGray-500 hover:text-white"
                 >
                   Creative Tim
                 </a> */}

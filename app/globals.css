@@ -308,6 +308,48 @@
   backdrop-filter: 50;
 }
 
+.courseng{
+  background-image: url("/images/engineering5.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  backdrop-filter: 50;
+
+}
+
+.coursagri{
+  background-image: url("/images/agri7.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  backdrop-filter: 50;
+}
+
+.coursmbbs{
+  background-image: url("/images/mbbs2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  backdrop-filter: 50;
+
+}
+
+.courshealth{
+  background-image: url("/images/medicine4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  backdrop-filter: 50;
+
+}
 
 
 

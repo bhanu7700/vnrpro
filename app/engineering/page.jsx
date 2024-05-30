@@ -1,10 +1,16 @@
 import Link from "next/link";
 import React from "react";
 
+export const metadata = {
+  title: "VNR Educational Services",
+  description:
+    "Established with a passion for empowering students to reach their full potential, we are dedicated to providing comprehensive consultancy services tailored to the unique needs of undergraduate students",
+};
+
 const page = () => {
   return (
     <div>
-      <div className="coursemain flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
+      <div className=" courseng flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
         <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "}
         <h1 className="text-[40px] relative text-white"> - Engineering</h1>
       </div>
@@ -46,159 +52,6 @@ const page = () => {
           Specifications
         </h1>
 
-        {/* <div className=" grid lg:grid-cols-2 grid-cols-1 lg:padding-x  ">
-          <div className="flex flex-col justify-start items-start">
-            <h1 className="text-[25px] max-md:text-[20px] font-medium py-4">
-              Computer Science Engineering(CSE)
-            </h1>
-            <ul className="list-disc">
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Computer Science and Engineering- Artificial Intelligence and
-                  Machine Learning
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1> Computer Science and Engineering- Big Data</h1>
-              </li>
-              <li className="py-1">
-                <h1> Computer Science and Engineering- Full Stack AI</h1>
-              </li>
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Computer Science and Engineering- Blockchain Technology
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1>Computer Science and Engineering- Internet of Things</h1>
-              </li>
-              <li className="py-1">
-                <h1> Computer Science and Engineering- Enterprise Mobility</h1>
-              </li>
-              <li className="py-1">
-                <h1> Computer Science and Engineering- Graphics and Gaming</h1>
-              </li>
-            </ul>
-          </div>
-
-          <div className="flex flex-col justify-start items-start">
-            <h1 className="text-[25px] max-md:text-[20px] font-medium py-4">
-              Electrical Communicational Engineering(CSE)
-            </h1>
-            <ul className="list-disc">
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Electronics and Communication Engineering- 5 G Communication
-                  and Technology
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Electronics and Communication Engineering- VLSI Design and
-                  Embedded Systems
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1> Electronics and Computer Engineering</h1>
-              </li>
-              <li className="py-1">
-                <h1> Electrical Engineering - Smart Grid and Computing</h1>
-              </li>
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Electrical Engineering - Electrical Vehicle and Grid Managemen
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  enewable and Sustainable Energy Engineering - Renewable Energy
-                </h1>
-              </li>
-            </ul>
-          </div>
-
-          <div className="flex flex-col justify-start items-start">
-            <h1 className="text-[25px] max-md:text-[20px] font-medium py-4">
-              Mechanical Engineering(Mech)
-            </h1>
-            <ul className="list-disc">
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Automotive Design Engineering - Electric Vehicle Technology
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1> Automotive Design Engineering - Aerial Technology</h1>
-              </li>
-              <li className="py-1">
-                <h1> Mechanical Engineering - Additive Manufacturing</h1>
-              </li>
-              <li className="py-1">
-                <h1> Mechanical Engineering - Smart Manufacturing</h1>
-              </li>
-              <li className="py-1">
-                <h1>Mechatronics Engineering - Machine Design & Programming</h1>
-              </li>
-              <li className="py-1">
-                <h1>Mechatronics Engineering- Mechanics & Signal Processing</h1>
-              </li>
-              <li className="py-1">
-                <h1> Advance Materials and Nano Technology - Smart Material</h1>
-              </li>
-            </ul>
-          </div>
-
-          <div className="flex flex-col justify-start items-start">
-            <h1 className="text-[25px] max-md:text-[20px] font-medium py-4">
-              Electronics and Communication Engineering(ECE)
-            </h1>
-            <ul className="list-disc">
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Electronics and Communication Engineering - 5 G Communication
-                  and Technology
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Electronics and Communication Engineering - VLSI Design and
-                  Embedded Systems
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1> Electrical Engineering - Smart Grid and Computing</h1>
-              </li>
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Electrical Engineering - Electrical Vehicle and Grid
-                  Management
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1>
-                  Renewable and Sustainable Energy Engineering - Renewable
-                  Energy
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1>
-                  Renewable and Sustainable Energy Engineering - Sustainable
-                  Engineering
-                </h1>
-              </li>
-            </ul>
-          </div>
-        </div> */}
 
         <div>
           <div class="mx-auto lg:max-w-4xl ">
