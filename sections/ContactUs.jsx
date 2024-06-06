@@ -223,7 +223,7 @@ const ContactUs = () => {
           <div className="bg-[#202238] text-white h-[280px] rounded-[10px] w-[100%] max-lg:w-[330px]    ">
             <iframe
               className="w-[100%] h-[100%] rounded-[10px] "
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d952.0022454259697!2d78.54341414797983!3d17.363300820433516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9996dce12ef1%3A0xcfe6093a2eccd1c0!2sHamstech%20College%20of%20Creative%20Education!5e0!3m2!1sen!2sin!4v1714899384011!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d305.55862185672754!2d78.5475902033595!3d17.373075251931123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb98c34a09b9a5%3A0xde5a9fe6676fafc2!2sVNR%20Educational%20Services!5e0!3m2!1sen!2sin!4v1717414476924!5m2!1sen!2sin"
               style={{ border: 0 }}
               allowfullscreen=""
               loading="lazy"

@@ -7,6 +7,54 @@ const UniScroll = () => {
 
       <div className="flex overflow-hidden space-x-16">
         <div className="flex space-x-16 justify-start items-start animate-loop-scroll">
+        <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg20.jpg"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
+          <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg15.png"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
+          <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg16.png"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
+          <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg17.png"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
+          <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg18.png"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
+          <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg7.png"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
           <div className="w-[170px] h-[220px]">
             <img
               loading="lazy"
@@ -84,6 +132,54 @@ const UniScroll = () => {
           </div>
         </div>{" "}
         <div className="flex space-x-16 justify-start items-start animate-loop-scroll">
+        <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg20.jpg"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
+          <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg15.png"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
+          <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg16.png"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
+          <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg17.png"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
+          <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg18.png"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
+          <div className="w-[170px] h-[220px]">
+            <img
+              loading="lazy"
+              src="/icons/clg7.png"
+              className=" object-contain w-[100%] h-[100%]"
+              alt=""
+            />
+          </div>
           <div className="w-[170px] h-[220px]">
             <img
               loading="lazy"

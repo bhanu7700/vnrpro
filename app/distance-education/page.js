@@ -1,9 +1,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "VNR Educational Services",
+  title: "Distance Education | VNR EDU",
   description:
-    "Established with a passion for empowering students to reach their full potential, we are dedicated to providing comprehensive consultancy services tailored to the unique needs of undergraduate students",
+    "Distance or online education degrees have transformed the landscape of higher learning, offering unparalleled flexibility and accessibility to students worldwide.Established with a passion for empowering students to reach their full potential, we are dedicated to providing comprehensive consultancy services tailored to the unique needs of undergraduate students",
 };
 
 const page = () => {

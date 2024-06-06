@@ -1,9 +1,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "VNR Educational Services",
+  title: "Agriculture | VNR EDU",
   description:
-    "Established with a passion for empowering students to reach their full potential, we are dedicated to providing comprehensive consultancy services tailored to the unique needs of undergraduate students",
+    "Delve into the fascinating world of agriculture with our Bachelor of Science (BSc) in Agriculture courses.Established with a passion for empowering students to reach their full potential, we are dedicated to providing comprehensive consultancy services tailored to the unique needs of undergraduate students",
 };
 
 const page = () => {

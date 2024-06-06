@@ -219,7 +219,7 @@ export default function CarouselSec() {
           />
 
           <div className=" img-text4">
-            <h1 className=" animeslide-heading " data-animate="bottom">
+            <h1 className=" animeslide-heading text-[80px] max-md:text-[30px]" data-animate="bottom">
               Distance/Online Education
             </h1>
             <p class="animeslide-desc" data-animate="bottom">

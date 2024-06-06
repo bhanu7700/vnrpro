@@ -1,9 +1,9 @@
 import React from "react";
 
 export const metadata = {
-  title: "VNR Educational Services",
+  title: "Medicine | VNR EDU",
   description:
-    "Established with a passion for empowering students to reach their full potential, we are dedicated to providing comprehensive consultancy services tailored to the unique needs of undergraduate students",
+    "Our programs provide an in-depth understanding of human biology, disease mechanisms, and innovative healthcare solutions, preparing you for a fulfilling career in the medical field",
 };
 
 const page = () => {
@@ -166,7 +166,7 @@ const page = () => {
               </details>
               <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
-                  Respiratory Care Tech
+                  Medical Lab Technician
                   <div class="text-secondary-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -189,12 +189,13 @@ const page = () => {
                     Overview:
                   </h1>
                   <p className="my-1">
-                    Respiratory care technology focuses on the diagnosis,
-                    treatment, and management of respiratory disorders and
-                    conditions affecting the lungs and airways. It plays a
-                    crucial role in supporting patients with respiratory
-                    illnesses, ensuring optimal lung function and overall
-                    health.
+                    Our Medical Lab Technician(MLT) programs cover a wide range of subjects, including
+                    clinical chemistry, hematology, microbiology, immunology,
+                    and blood banking. With hands-on training in
+                    state-of-the-art laboratory facilities and guidance from
+                    experienced instructors, you'll gain the technical expertise
+                    and precision required to excel as a medical laboratory
+                    technician.
                   </p>
                 </div>
               </details>

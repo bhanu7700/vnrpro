@@ -2,9 +2,9 @@ import Link from "next/link";
 import React from "react";
 
 export const metadata = {
-  title: "VNR Educational Services",
+  title: "Engineering | VNR EDU",
   description:
-    "Established with a passion for empowering students to reach their full potential, we are dedicated to providing comprehensive consultancy services tailored to the unique needs of undergraduate students",
+    "Embark on a journey of innovation and problem-solving with our diverse range of engineering courses. ",
 };
 
 const page = () => {
