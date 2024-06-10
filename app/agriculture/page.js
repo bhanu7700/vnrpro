@@ -10,15 +10,15 @@ const page = () => {
   return (
     <div>
       <div className="coursagri flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
-        <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "}
-        <h1 className="text-[40px] relative text-white"> -BSC Agriculture</h1>
+        {/* <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "} */}
+        <h1 className="text-[40px] relative text-white"> BSC Agriculture</h1>
       </div>
       <div className="padding-x padding-y">
         <div className="flex max-md:flex-col gap-10">
           <div className="w-[50%] max-md:w-[100%] px-10 max-md:px-2 flex flex-col justify-center items-center ">
             <div className="flex gap-3 mb-4 ">
               <div>
-                <img src="/icons/icar.png" className="h-[120px]" alt="Icar" />
+                <img src="/icons/icar.png" className="h-[120px] max-md:h-[80px]" alt="Icar" />
               </div>
               <div className="flex flex-col justify-center items-center">
                 <h1 className="mb-2 text-[40px] max-md:text-[30px] text-[#2c5d63] font-semibold">
@@ -169,7 +169,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-[#c7b198] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#ffb4ac] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Forensic Science
                   <div class="text-secondary-500">

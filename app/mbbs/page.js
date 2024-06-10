@@ -59,7 +59,7 @@ const page = () => {
         <div>
           <div class="mx-auto lg:max-w-4xl ">
             <div class="space-y-6">
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#ffcab0] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Bachelor of Dental Surgery(BDS)
                   <div class="text-secondary-500">
@@ -92,7 +92,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#7481cf] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Bachelor of Veterinary Science(BVS)
                   <div class="text-secondary-500">
@@ -126,7 +126,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#42b883] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Bachelor of Homeopathic Medicine and Surgery(BHMS)
                   <div class="text-secondary-500">
@@ -161,7 +161,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#ffb4ac] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Bachelor of Ayurvedic Medicine and Surgery(BAMS)
                   <div class="text-secondary-500">

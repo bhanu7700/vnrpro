@@ -55,7 +55,7 @@ const page = () => {
         <div>
           <div class="mx-auto lg:max-w-4xl ">
             <div class="space-y-6">
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#ffcab0] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Radiology & Med Imaging Tech
                   <div class="text-secondary-500">
@@ -100,7 +100,7 @@ const page = () => {
                   </div>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#38598b] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Anesthesia & Operation Theatre Tech
                   <div class="text-secondary-500">
@@ -134,7 +134,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#42b883] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Renal Dialysis Tech
                   <div class="text-secondary-500">
@@ -167,7 +167,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#c7b198] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Respiratory Care Tech
                   <div class="text-secondary-500">
@@ -201,7 +201,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#ffb4ac] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Medical Lab Tech
                   <div class="text-secondary-500">
@@ -236,7 +236,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#fff59d] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Neuro Science Radiology Tech
                   <div class="text-secondary-500">
@@ -271,7 +271,7 @@ const page = () => {
                 </div>
               </details>
 
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#8bc34a] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Cardiac Care Tech
                   <div class="text-secondary-500">
@@ -305,7 +305,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#42dee1] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Perfusion Tech
                   <div class="text-secondary-500">
@@ -339,7 +339,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#a7b99e] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Optometry
                   <div class="text-secondary-500">

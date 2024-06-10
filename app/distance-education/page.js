@@ -69,7 +69,7 @@ const page = () => {
                 Under Gradution(UG)
               </h1>
               <div class="space-y-6 w-full">
-                <details class="group rounded-xl bg-[#f95959]  shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#ed7979]  shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     Arts Cources (Duration: 3 Years)
                     <div class="text-secondary-500">
@@ -124,7 +124,7 @@ const page = () => {
                     </ul>
                   </div>
                 </details>
-                <details class="group rounded-xl bg-[#38598b] text-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#7481cf] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     COMMERCE COURSES (Duration : 3 years)
                     <div class="text-secondary-500">
@@ -226,7 +226,7 @@ const page = () => {
                 Post Gradution(PG)
               </h1>
               <div class="space-y-6 w-full">
-                <details class="group rounded-xl bg-[#f95959] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#ed7979] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     Arts Courses (Duration: 2 years)
                     <div class="text-secondary-500">
@@ -290,7 +290,7 @@ const page = () => {
                     </ul>
                   </div>
                 </details>
-                <details class="group rounded-xl bg-[#38598b] text-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#7481cf] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     COMMERCE Courses (Duration: 2 years)
                     <div class="text-secondary-500">
@@ -388,7 +388,7 @@ const page = () => {
                     </ul>
                   </div>
                 </details>
-                <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#42b883] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     MCA- (Master of Computer Application)
                     <div class="text-secondary-500">
@@ -420,7 +420,7 @@ const page = () => {
                     </p>
                   </div>
                 </details>
-                <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#fff59d] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     SCIENCES COURSES (Duration: 2 years)
                     <div class="text-secondary-500">
@@ -478,7 +478,7 @@ const page = () => {
                     </ul>
                   </div>
                 </details>
-                <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#42dee1] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     ONE YEAR COURSES
                     <div class="text-secondary-500">
@@ -517,7 +517,7 @@ const page = () => {
                     </ul>
                   </div>
                 </details>
-                <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#a7b99e] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     DIPLOMA (Duration: 1 year)
                     <div class="text-secondary-500">
