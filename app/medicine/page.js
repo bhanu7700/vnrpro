@@ -19,7 +19,10 @@ const page = () => {
             <h1 className="mb-2 text-[40px] max-md:text-[30px] text-[#c10a16] font-semibold">
               Medical Sciences Cources
             </h1>
-            <p>
+            <h1 className="mb-4 text-[25px] font-bold text-[#10316b] lg:text-center">
+             Pharmacy Councel of India(PCI) Approved Colleges
+            </h1>
+            <p className="font-[500]">
               Embark on a path to improving lives with our comprehensive Medical
               Sciences courses. Our programs provide an in-depth understanding
               of human biology, disease mechanisms, and innovative healthcare
@@ -30,7 +33,7 @@ const page = () => {
               pharmacology. Gain the knowledge and skills needed to excel in
               medical research, clinical practice, and healthcare management.
             </p>
-            <p className="mt-2">
+            <p className="mt-2 font-[500]">
               Join a community of dedicated students and professionals committed
               to advancing medical knowledge and improving patient care. With
               our Medical Sciences courses, you'll be equipped to make
@@ -41,7 +44,7 @@ const page = () => {
             </p>
           </div>
           <div className="w-[50%] max-md:w-[100%] px-10 max-md:px-2">
-            <img src="/images/medicine5.jpg" alt="engineering" />
+            <img src="/images/medicine6.jpeg" className="h-[550px] max-md:h-[350px]" alt="engineering" />
           </div>
         </div>
 
@@ -95,6 +98,40 @@ const page = () => {
                       medical conditions effectively.
                     </p>
                   </div>
+                </div>
+              </details>
+              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
+                  Anesthesia & Operation Theatre Tech
+                  <div class="text-secondary-500">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke-width="1.5"
+                      stroke="currentColor"
+                      class="block h-5 w-5 transition-all duration-300 group-open:-rotate-90"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
+                      />
+                    </svg>
+                  </div>
+                </summary>
+                <div class="px-6 pb-6 text-secondary-500">
+                  <h1 className="my-1 mt-2 font-semibold text-[16px] text-[#c10a16] ">
+                    Overview:
+                  </h1>
+                  <p className="my-1">
+                    Operating room and anesthesia technology encompass a range
+                    of specialized equipment, tools, and processes used during
+                    surgical procedures to create a safe and efficient
+                    environment for surgical teams and patients. These
+                    technologies play a crucial role in ensuring the success of
+                    surgical interventions across various medical specialties.
+                  </p>
                 </div>
               </details>
               <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
@@ -166,7 +203,7 @@ const page = () => {
               </details>
               <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
-                  Medical Lab Technician
+                  Medical Lab Tech
                   <div class="text-secondary-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -189,13 +226,13 @@ const page = () => {
                     Overview:
                   </h1>
                   <p className="my-1">
-                    Our Medical Lab Technician(MLT) programs cover a wide range of subjects, including
-                    clinical chemistry, hematology, microbiology, immunology,
-                    and blood banking. With hands-on training in
-                    state-of-the-art laboratory facilities and guidance from
-                    experienced instructors, you'll gain the technical expertise
-                    and precision required to excel as a medical laboratory
-                    technician.
+                    Our Medical Lab Technician(MLT) programs cover a wide range
+                    of subjects, including clinical chemistry, hematology,
+                    microbiology, immunology, and blood banking. With hands-on
+                    training in state-of-the-art laboratory facilities and
+                    guidance from experienced instructors, you'll gain the
+                    technical expertise and precision required to excel as a
+                    medical laboratory technician.
                   </p>
                 </div>
               </details>
@@ -233,40 +270,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
-                <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
-                  Operation and Anesthesia Theatre Tech
-                  <div class="text-secondary-500">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="block h-5 w-5 transition-all duration-300 group-open:-rotate-90"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M8.25 4.5l7.5 7.5-7.5 7.5"
-                      />
-                    </svg>
-                  </div>
-                </summary>
-                <div class="px-6 pb-6 text-secondary-500">
-                  <h1 className="my-1 mt-2 font-semibold text-[16px] text-[#c10a16] ">
-                    Overview:
-                  </h1>
-                  <p className="my-1">
-                    Operating room and anesthesia technology encompass a range
-                    of specialized equipment, tools, and processes used during
-                    surgical procedures to create a safe and efficient
-                    environment for surgical teams and patients. These
-                    technologies play a crucial role in ensuring the success of
-                    surgical interventions across various medical specialties.
-                  </p>
-                </div>
-              </details>
+
               <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Cardiac Care Tech
@@ -303,7 +307,7 @@ const page = () => {
               </details>
               <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
-                  Perfusion Technology
+                  Perfusion Tech
                   <div class="text-secondary-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -337,7 +341,7 @@ const page = () => {
               </details>
               <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
-                  Optometry. MLT
+                  Optometry
                   <div class="text-secondary-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -360,12 +364,12 @@ const page = () => {
                     Overview:
                   </h1>
                   <p className="my-1">
-                    Medical Laboratory Technology (MLT) involves the analysis of
-                    biological specimens to aid in the diagnosis, treatment, and
-                    monitoring of diseases. Medical laboratory technologists
-                    (MLTs) perform a wide range of laboratory tests and
-                    procedures to provide accurate and timely results to
-                    healthcare providers.
+                    Our Optometry programs cover a broad spectrum of subjects,
+                    including ocular anatomy, optics, visual science, and
+                    clinical practice. Through hands-on training and guidance
+                    from experienced faculty, you'll gain the expertise needed
+                    to perform eye examinations, prescribe corrective lenses,
+                    and manage various eye conditions.
                   </p>
                 </div>
               </details>

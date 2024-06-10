@@ -48,7 +48,7 @@ const ContactUs = () => {
       .sendForm(
         "service_3qdh64d",
         "template_bay3usv",
-        "#myform",
+        e.target,
         "5yFVLN4CZ4M9UYPP4"
       )
       .then((message) => {

@@ -10,10 +10,10 @@ const page = () => {
   return (
     <div>
       <div className="coursemain flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
-        <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "}
+        {/* <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "} */}
         <h1 className="text-[40px] relative text-white">
           {" "}
-          -Distance/Online Education
+          Distance/Online Education
         </h1>
       </div>
       <div className="padding-x padding-y">
@@ -22,10 +22,20 @@ const page = () => {
             <h1 className="mb-2 text-[40px] max-md:text-[30px] text-[#c10a16] font-semibold">
               Distance/Online Cources
             </h1>
-            <p>
-              Distance or online education degrees have transformed the
-              landscape of higher learning, offering unparalleled flexibility
-              and accessibility to students worldwide. These programs enable
+            <h1 className="mb-4 text-[25px] font-bold text-[#10316b]">
+              UGC/DEB Approved Universities
+            </h1>
+            <p className="font-[500]">
+              <span className="font-[700]">
+                {" "}
+                "Our Disatnce / Online program provides education from NAAC A+
+                accredited universities, prestigious government
+                universities/Private universities(Gvt Approvaed UGC/DEB) and
+                Autharized stiudy centers ."{" "}
+              </span>
+              Distance / Online education degrees have transformed the landscape
+              of higher learning, offering unparalleled flexibility and
+              accessibility to students worldwide. These programs enable
               learners to pursue their academic aspirations without the
               constraints of geographical boundaries or rigid schedules, making
               education more inclusive and accommodating diverse lifestyles.
@@ -33,7 +43,7 @@ const page = () => {
               students engage in dynamic virtual classrooms, collaborating with
               peers and accessing resources at their own pace.
             </p>
-            <p className="my-2">
+            <p className="my-2 font-[500]">
               Online degrees not only empower individuals to balance their
               studies with work or other commitments but also foster
               independence and self-discipline, essential skills in today's
@@ -59,7 +69,7 @@ const page = () => {
                 Under Gradution(UG)
               </h1>
               <div class="space-y-6 w-full">
-                <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#f95959]  shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     Arts Cources (Duration: 3 Years)
                     <div class="text-secondary-500">
@@ -114,7 +124,7 @@ const page = () => {
                     </ul>
                   </div>
                 </details>
-                <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#38598b] text-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     COMMERCE COURSES (Duration : 3 years)
                     <div class="text-secondary-500">
@@ -155,7 +165,7 @@ const page = () => {
                     </ul>
                   </div>
                 </details>
-                <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#ffcab0] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     SCIENCES COURSES (Duration : 3 years)
                     <div class="text-secondary-500">
@@ -216,7 +226,7 @@ const page = () => {
                 Post Gradution(PG)
               </h1>
               <div class="space-y-6 w-full">
-                <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#f95959] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     Arts Courses (Duration: 2 years)
                     <div class="text-secondary-500">
@@ -280,7 +290,7 @@ const page = () => {
                     </ul>
                   </div>
                 </details>
-                <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#38598b] text-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     COMMERCE Courses (Duration: 2 years)
                     <div class="text-secondary-500">
@@ -311,7 +321,7 @@ const page = () => {
                     </ul>
                   </div>
                 </details>
-                <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+                <details class="group rounded-xl bg-[#ffcab0] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                   <summary class="flex cursor-pointer list-none items-center justify-between p-6 lg:text-lg max-md:text-[15px] font-medium text-secondary-900">
                     M.B.A SPECIALISATION COURSES (Duration: 2 years)
                     <div class="text-secondary-500">

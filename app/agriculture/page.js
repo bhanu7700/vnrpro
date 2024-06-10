@@ -16,24 +16,36 @@ const page = () => {
       <div className="padding-x padding-y">
         <div className="flex max-md:flex-col gap-10">
           <div className="w-[50%] max-md:w-[100%] px-10 max-md:px-2 flex flex-col justify-center items-center ">
-            <h1 className="mb-2 text-[40px] max-md:text-[30px] text-[#c10a16] font-semibold">
-              Agriculture Cources
-            </h1>
-            <p>
+            <div className="flex gap-3 mb-4 ">
+              <div>
+                <img src="/icons/icar.png" className="h-[120px]" alt="Icar" />
+              </div>
+              <div className="flex flex-col justify-center items-center">
+                <h1 className="mb-2 text-[40px] max-md:text-[30px] text-[#2c5d63] font-semibold">
+                  Agriculture Cources
+                </h1>
+
+                <h1 className="mb-4 text-[25px] font-bold text-[#10316b]">
+                  (With ICAR accrideted Universities)
+                </h1>
+              </div>
+            </div>
+
+            <p className="font-[500]">
               Delve into the fascinating world of agriculture with our Bachelor
               of Science (BSc) in Agriculture courses. Rooted in scientific
               principles and hands-on experience, our programs offer a
               comprehensive education in crop cultivation, soil management,
               livestock production, and sustainable farming practices.
             </p>
-            <p className="my-2">
+            <p className="my-2 font-[500]">
               Whether you're drawn to the art of crop science, fascinated by the
               intricacies of animal husbandry, or passionate about promoting
               environmental stewardship, our BSc Agriculture courses provide a
               solid foundation for a rewarding career in the agricultural
               industry.
             </p>
-            <p className="mt-2">
+            <p className="mt-2 font-[500]">
               Join a community of aspiring agronomists, agricultural scientists,
               and agribusiness professionals as you explore innovative solutions
               to global food security challenges and contribute to the
@@ -55,7 +67,7 @@ const page = () => {
         <div>
           <div class="mx-auto lg:max-w-4xl ">
             <div class="space-y-6">
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#ffcab0] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Horticulture
                   <div class="text-secondary-500">
@@ -89,7 +101,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#38598b] text-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Bio Technology
                   <div class="text-secondary-500">
@@ -123,7 +135,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#42b883] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Food Technology
                   <div class="text-secondary-500">
@@ -157,7 +169,7 @@ const page = () => {
                   </p>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#c7b198] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Forensic Science
                   <div class="text-secondary-500">

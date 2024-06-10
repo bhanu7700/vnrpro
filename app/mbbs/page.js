@@ -1,17 +1,19 @@
 import React from "react";
 
 export const metadata = {
-  title: "VNR Educational Services",
+  title: "MBBS | VNR EDU",
   description:
-    "Established with a passion for empowering students to reach their full potential, we are dedicated to providing comprehensive consultancy services tailored to the unique needs of undergraduate students",
+    " Embark on a rewarding career in medicine with our comprehensive MBBS courses",
 };
 
 const page = () => {
   return (
     <div>
       <div className="coursmbbs flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
-        <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "}
-        <h1 className="text-[40px] relative text-white"> -MBBS</h1>
+        {/* <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "} */}
+        <h1 className="text-[40px] relative text-white">
+          MBBS (India & Abroad)
+        </h1>
       </div>
       <div className="padding-x padding-y">
         <div className="flex max-md:flex-col gap-10">
@@ -19,7 +21,10 @@ const page = () => {
             <h1 className="mb-2 text-[40px] max-md:text-[30px] text-[#c10a16] font-semibold">
               MBBS Cources
             </h1>
-            <p>
+            <h1 className="mb-4 text-[25px] font-bold text-[#10316b]">
+              Study in India & Abroad
+            </h1>
+            <p className="font-[500]">
               Embark on a rewarding career in medicine with our comprehensive
               MBBS courses. Designed for aspiring doctors, these programs
               provide rigorous training in medical science, clinical skills, and
@@ -31,13 +36,13 @@ const page = () => {
               you'll gain the knowledge and skills needed to excel in the
               medical field.
             </p>
-            <p className="my-2">
+            <p className="my-2 font-[500]">
               Join a community of dedicated medical students committed to making
               a difference in healthcare. With personalized guidance and support
               from our consultancy, you'll navigate the application process with
               confidence and secure a place in top medical institutions.
             </p>
-            <p className="mt-2">
+            <p className="mt-2 font-[500]">
               Ready to start your journey in medicine? Explore our MBBS courses
               and take the first step toward becoming a healthcare professional.
             </p>
@@ -153,7 +158,7 @@ const page = () => {
                     experienced faculty and access to modern clinical
                     facilities, you'll acquire the knowledge and skills
                     necessary to excel in homeopathic medicine.
-                  </p>  
+                  </p>
                 </div>
               </details>
               <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">

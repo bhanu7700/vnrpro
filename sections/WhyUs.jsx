@@ -37,11 +37,11 @@ const WhyUs = () => {
                 Distance/Online Education
               </h1>
               <p className="mt-5 pr-6 font-serif">
-                Our online education options cover a wide range of disciplines,
-                providing interactive and engaging learning experiences through
-                cutting-edge technology. With access to expert instructors,
-                virtual labs, and a supportive online community, you can achieve
-                your academic goals without compromising on quality.
+                Our Disatnce / Online program provides education from NAAC A+
+                accredited universities, prestigious government
+                universities/Private universities(Gvt Approvaed UGC/DEB) and
+                Autharized stiudy centers.With access to expert instructors you
+                can achieve your academic goals without compromising on quality.
               </p>
             </div>
           </div>
@@ -109,14 +109,15 @@ const WhyUs = () => {
             </div>
             <div className="flex-col justify-center items-center flex  text-center">
               <h1 className="text-[#c10a16] text-[25px] font-semibold">
-                Transfer Oppertunities
+                Best Edu Services
               </h1>
               <p className="mt-5 pr-6 font-serif">
-                We provide expert advice on selecting the right institution,
-                understanding transfer credits, and meeting application
-                requirements. Our personalized approach ensures that your unique
-                goals and academic achievements are matched with the best
-                possible options for your continued education.
+                Your dedicated partner in securing admission to prestigious NAAC
+                A+ accredited universities. Our comprehensive consultancy
+                services are tailored to help you navigate the application
+                process with ease, ensuring you gain entry to institutions
+                renowned for their academic excellence and robust
+                infrastructure.
               </p>
             </div>
           </div>

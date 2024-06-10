@@ -11,8 +11,8 @@ const page = () => {
   return (
     <div>
       <div className=" courseng flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
-        <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "}
-        <h1 className="text-[40px] relative text-white"> - Engineering</h1>
+        {/* <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "} */}
+        <h1 className="text-[40px] relative text-white">  Engineering</h1>
       </div>
       <div className="padding-x padding-y">
         <div className="flex lg:flex-row flex-col gap-10">
@@ -52,11 +52,11 @@ const page = () => {
           Specifications
         </h1>
 
-
+ 
         <div>
           <div class="mx-auto lg:max-w-4xl ">
             <div class="space-y-6">
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#42b883] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                   Computer Science Engineering(CSE)
                   <div class="text-secondary-500">
@@ -117,7 +117,7 @@ const page = () => {
                   </ul>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#38598b] text-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                 Electrical Communicational Engineering(CSE)
                   <div class="text-secondary-500">
@@ -174,7 +174,7 @@ const page = () => {
             </ul>
                 </div>
               </details>
-              <details class="group rounded-xl bg-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
+              <details class="group rounded-xl bg-[#ffcab0] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
                 Mechanical Engineering(Mech)
                   <div class="text-secondary-500">

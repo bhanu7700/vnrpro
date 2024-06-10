@@ -29,7 +29,7 @@ const page = () => {
 
             At VNR services, we believe that every student deserves access to
             quality education and guidance to fulfill their academic
-            aspirations. Established with a passion for empowering students to
+            aspirations. Established at 2012 with a passion for empowering students to
             reach their full potential, we are dedicated to providing
             comprehensive consultancy services tailored to the unique needs of
             undergraduate students.
