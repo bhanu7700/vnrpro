@@ -11,7 +11,7 @@ const page = () => {
     <div>
       <div className="coursagri flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
         {/* <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "} */}
-        <h1 className="text-[40px] relative text-white"> BSC Agriculture</h1>
+        <h1 className="text-[60px] max-md:text-[40px] font-serif  relative  bg-black bg-opacity-50 px-5 rounded text-white"> BSC Agriculture</h1>
       </div>
       <div className="padding-x padding-y">
         <div className="flex max-md:flex-col gap-10">

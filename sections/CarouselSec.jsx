@@ -16,6 +16,7 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { initFlowbite } from "flowbite";
+import Image from "next/image";
 
 export default function CarouselSec() {
   let [isOpen, setIsOpen] = useState(true);
@@ -104,10 +105,14 @@ export default function CarouselSec() {
         className="mySwiper swipe h-full "
       >
         <SwiperSlide className=" swiper-slide animeslide-slide">
-          <img
+          <Image
+            priority={true}
             src="/images/agri6.jpg"
             alt="Caroucel"
             className="w-full h-full   z-0 object-cover"
+            width={0}
+            height={0}
+            sizes="100vw"
           />
 
           <div className=" img-text">
@@ -161,12 +166,12 @@ export default function CarouselSec() {
           <img
             src="/images/mbbs3.jpg"
             alt="Caroucel"
-            className="w-full h-full   z-0 object-cover"
+            className="w-full h-full   z-0 object-cover object-top"
           />
 
           <div className=" img-text">
-            <h1 className=" animeslide-heading " data-animate="bottom">
-              MBBS Courses
+            <h1 className=" animeslide-heading max-md:text-black max-md:font-bold " data-animate="bottom">
+              MBBS 
             </h1>
             <p class="animeslide-desc" data-animate="bottom">
               Embark on a rewarding career in medicine with our comprehensive
