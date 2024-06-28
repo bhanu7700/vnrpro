@@ -37,10 +37,10 @@ const WhyUs = () => {
                 Distance/Online Education
               </h1>
               <p className="mt-5 pr-6 font-serif">
-                Our Disatnce / Online program provides education from NAAC A+
+                Our Distance / Online program provides education from NAAC A+
                 accredited universities, prestigious government
                 universities/Private universities(Gvt Approvaed UGC/DEB) and
-                Autharized stiudy centers.With access to expert instructors you
+                Autharized study centers.With access to expert instructors you
                 can achieve your academic goals without compromising on quality.
               </p>
             </div>
@@ -65,7 +65,7 @@ const WhyUs = () => {
             </div>
             <div className="flex-col justify-center items-center flex  text-center">
               <h1 className="text-[#c10a16] text-[25px] font-semibold">
-                Carreer Guidence
+                Career Guidance
               </h1>
               <p className="mt-5 pr-6 font-serif">
                 We offer one-on-one counseling, resume building, interview

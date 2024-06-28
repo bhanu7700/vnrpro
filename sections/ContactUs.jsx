@@ -117,7 +117,7 @@ const ContactUs = () => {
                         for="email"
                         className="leading-7 text-sm text-gray-600"
                       >
-                        Preffered Course
+                        Preferred Course
                       </label>
                       <input
                         type="text"

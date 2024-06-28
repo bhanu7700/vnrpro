@@ -1,3 +1,4 @@
+import ExportedImage from "next-image-export-optimizer";
 import React from "react";
 
 export const metadata = {
@@ -9,13 +10,23 @@ export const metadata = {
 const page = () => {
   return (
     <div>
-      <div className="coursemain flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
+      <div className="  h-[350px] relative flex justify-center items-center">
         {/* <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "} */}
-        <h1 className="text-[60px] max-md:text-[40px] font-serif  relative  bg-black bg-opacity-50 px-5 rounded text-white">
+        <ExportedImage
+          src="/images/courses.jpg"
+          alt="Caroucel"
+          width={10}
+          height={10}
+          sizes="100vw"
+          className="z-0 object-cover w-[100%] h-[100%]"
+        />
+
+        <h1 className="text-[60px] max-md:text-[40px] font-serif  absolute   bg-black bg-opacity-50 px-5 rounded text-white">
           {" "}
           Distance/Online Education
         </h1>
       </div>
+
       <div className="padding-x padding-y">
         <div className="flex max-md:flex-col gap-10">
           <div className="w-[50%] max-md:w-[100%] px-10 max-md:px-2 flex flex-col justify-center items-center ">
@@ -54,7 +65,14 @@ const page = () => {
             </p>
           </div>
           <div className="w-[50%] max-md:w-[100%] px-10 max-md:px-2">
-            <img src="/images/degree.jpg" alt="engineering" />
+            <ExportedImage
+              src="/images/degree.jpg"
+              alt="Caroucel"
+              width={10}
+              height={10}
+              sizes="100vw"
+              className="z-0 object-cover w-[100%] h-[100%]"
+            />
           </div>
         </div>
 

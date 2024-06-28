@@ -1,4 +1,5 @@
-import React from "react";
+import ExportedImage from "next-image-export-optimizer";
+import React, { Suspense } from "react";
 
 export const metadata = {
   title: "Medicine | VNR EDU",
@@ -8,11 +9,24 @@ export const metadata = {
 
 const page = () => {
   return (
-    <div>
-      <div className="courshealth flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
+    <Suspense fallback={<p>Loading feed...</p>}>
+       <div className="  h-[350px] relative flex justify-center items-center">
         {/* <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "} */}
-        <h1 className="text-[60px] max-md:text-[40px] font-serif  relative  bg-black bg-opacity-50 px-5 rounded text-white">  Medical Science</h1>
+        <ExportedImage
+          src="/images/medicine4.jpg"
+          alt="Caroucel"
+          width={10}
+          height={10}
+          sizes="100vw"
+          className="z-0 object-cover w-[100%] h-[100%]"
+        />
+
+        <h1 className="text-[60px] max-md:text-[40px] font-serif  absolute   bg-black bg-opacity-50 px-5 rounded text-white">
+          {" "}
+          Medical Science
+        </h1>
       </div>
+    
       <div className="padding-x padding-y">
         <div className="flex max-md:flex-col gap-10">
           <div className="w-[50%] max-md:w-[100%] px-10 max-md:px-2 flex flex-col justify-center items-center ">
@@ -44,7 +58,15 @@ const page = () => {
             </p>
           </div>
           <div className="w-[50%] max-md:w-[100%] px-10 max-md:px-2">
-            <img src="/images/medicine6.jpeg" className="h-[550px] max-md:h-[350px]" alt="engineering" />
+            {/* <img  className="h-[550px] max-md:h-[350px]" alt="engineering" /> */}
+            <ExportedImage
+              src="/images/medicine6.jpeg"
+              alt="Caroucel"
+              width={10}
+              height={10}
+              sizes="100vw"
+              className="z-0 object-cover w-[100%] h-[100%]"
+            />
           </div>
         </div>
 
@@ -377,7 +399,7 @@ const page = () => {
           </div>
         </div>
       </div>
-    </div>
+    </Suspense>
   );
 };
 

@@ -123,7 +123,7 @@ const page = () => {
                         for="email"
                         className="leading-7 text-sm text-gray-300"
                       >
-                        Preffered Course
+                        Preferred Course
                       </label>
                       <input
                         type="text"

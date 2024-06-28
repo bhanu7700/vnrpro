@@ -1,3 +1,4 @@
+import ExportedImage from "next-image-export-optimizer";
 import Link from "next/link";
 import React from "react";
 
@@ -10,9 +11,21 @@ export const metadata = {
 const page = () => {
   return (
     <div>
-      <div className=" courseng flex max-md:flex-col gap-2 h-[350px] justify-center items-center ">
+      <div className="  h-[350px] relative flex justify-center items-center">
         {/* <h1 className="text-[40px] text-white relative  ">Courses</h1>{" "} */}
-        <h1 className="text-[60px] max-md:text-[40px] font-serif  relative  bg-black bg-opacity-50 px-5 rounded text-white">  Engineering</h1>
+        <ExportedImage
+          src="/images/engineering5.jpg"
+          alt="Caroucel"
+          width={10}
+          height={10}
+          sizes="100vw"
+          className="z-0 object-cover w-[100%] h-[100%]"
+        />
+
+        <h1 className="text-[60px] max-md:text-[40px] font-serif  absolute   bg-black bg-opacity-50 px-5 rounded text-white">
+          {" "}
+          Engineering
+        </h1>
       </div>
       <div className="padding-x padding-y">
         <div className="flex lg:flex-row flex-col gap-10">
@@ -44,7 +57,14 @@ const page = () => {
             </p>
           </div>
           <div className="w-[100%]  lg:w-[50%] px-10 max-md:px-2">
-            <img src="/images/engineering3.jpg" alt="engineering" />
+            <ExportedImage
+              src="/images/engineering3.jpg"
+              alt="engineering"
+              width={10}
+              height={10}
+              sizes="100vw"
+              className="z-0 object-cover w-[100%] h-[100%]"
+            />
           </div>
         </div>
 
@@ -52,7 +72,6 @@ const page = () => {
           Specifications
         </h1>
 
- 
         <div>
           <div class="mx-auto lg:max-w-4xl ">
             <div class="space-y-6">
@@ -119,7 +138,7 @@ const page = () => {
               </details>
               <details class="group rounded-xl bg-[#38598b] text-white shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
-                Electrical Communicational Engineering(CSE)
+                  Electrical Communicational Engineering(CSE)
                   <div class="text-secondary-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -138,45 +157,50 @@ const page = () => {
                   </div>
                 </summary>
                 <div class="px-6 pb-6 text-secondary-500">
-                <ul className="list-disc">
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Electronics and Communication Engineering- 5 G Communication
-                  and Technology
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Electronics and Communication Engineering- VLSI Design and
-                  Embedded Systems
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1> Electronics and Computer Engineering</h1>
-              </li>
-              <li className="py-1">
-                <h1> Electrical Engineering - Smart Grid and Computing</h1>
-              </li>
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Electrical Engineering - Electrical Vehicle and Grid Managemen
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  enewable and Sustainable Energy Engineering - Renewable Energy
-                </h1>
-              </li>
-            </ul>
+                  <ul className="list-disc">
+                    <li className="py-1">
+                      <h1>
+                        {" "}
+                        Electronics and Communication Engineering- 5 G
+                        Communication and Technology
+                      </h1>
+                    </li>
+                    <li className="py-1">
+                      <h1>
+                        {" "}
+                        Electronics and Communication Engineering- VLSI Design
+                        and Embedded Systems
+                      </h1>
+                    </li>
+                    <li className="py-1">
+                      <h1> Electronics and Computer Engineering</h1>
+                    </li>
+                    <li className="py-1">
+                      <h1>
+                        {" "}
+                        Electrical Engineering - Smart Grid and Computing
+                      </h1>
+                    </li>
+                    <li className="py-1">
+                      <h1>
+                        {" "}
+                        Electrical Engineering - Electrical Vehicle and Grid
+                        Managemen
+                      </h1>
+                    </li>
+                    <li className="py-1">
+                      <h1>
+                        {" "}
+                        enewable and Sustainable Energy Engineering - Renewable
+                        Energy
+                      </h1>
+                    </li>
+                  </ul>
                 </div>
               </details>
               <details class="group rounded-xl bg-[#ffcab0] shadow-[0_10px_100px_10px_rgba(0,0,0,0.05)]">
                 <summary class="flex cursor-pointer list-none items-center justify-between p-6 text-lg font-medium text-secondary-900">
-                Mechanical Engineering(Mech)
+                  Mechanical Engineering(Mech)
                   <div class="text-secondary-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -195,32 +219,43 @@ const page = () => {
                   </div>
                 </summary>
                 <div class="px-6 pb-6 text-secondary-500">
-                <ul className="list-disc">
-              <li className="py-1">
-                <h1>
-                  {" "}
-                  Automotive Design Engineering - Electric Vehicle Technology
-                </h1>
-              </li>
-              <li className="py-1">
-                <h1> Automotive Design Engineering - Aerial Technology</h1>
-              </li>
-              <li className="py-1">
-                <h1> Mechanical Engineering - Additive Manufacturing</h1>
-              </li>
-              <li className="py-1">
-                <h1> Mechanical Engineering - Smart Manufacturing</h1>
-              </li>
-              <li className="py-1">
-                <h1>Mechatronics Engineering - Machine Design & Programming</h1>
-              </li>
-              <li className="py-1">
-                <h1>Mechatronics Engineering- Mechanics & Signal Processing</h1>
-              </li>
-              <li className="py-1">
-                <h1> Advance Materials and Nano Technology - Smart Material</h1>
-              </li>
-            </ul>
+                  <ul className="list-disc">
+                    <li className="py-1">
+                      <h1>
+                        {" "}
+                        Automotive Design Engineering - Electric Vehicle
+                        Technology
+                      </h1>
+                    </li>
+                    <li className="py-1">
+                      <h1>
+                        {" "}
+                        Automotive Design Engineering - Aerial Technology
+                      </h1>
+                    </li>
+                    <li className="py-1">
+                      <h1> Mechanical Engineering - Additive Manufacturing</h1>
+                    </li>
+                    <li className="py-1">
+                      <h1> Mechanical Engineering - Smart Manufacturing</h1>
+                    </li>
+                    <li className="py-1">
+                      <h1>
+                        Mechatronics Engineering - Machine Design & Programming
+                      </h1>
+                    </li>
+                    <li className="py-1">
+                      <h1>
+                        Mechatronics Engineering- Mechanics & Signal Processing
+                      </h1>
+                    </li>
+                    <li className="py-1">
+                      <h1>
+                        {" "}
+                        Advance Materials and Nano Technology - Smart Material
+                      </h1>
+                    </li>
+                  </ul>
                 </div>
               </details>
             </div>

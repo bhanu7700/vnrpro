@@ -16,7 +16,8 @@ import "swiper/css/navigation";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import { initFlowbite } from "flowbite";
-import Image from "next/image";
+import ExportedImage from "next-image-export-optimizer";
+// import Image from "next/image";
 
 export default function CarouselSec() {
   let [isOpen, setIsOpen] = useState(true);
@@ -105,14 +106,13 @@ export default function CarouselSec() {
         className="mySwiper swipe h-full "
       >
         <SwiperSlide className=" swiper-slide animeslide-slide">
-          <Image
-            priority={true}
+          <ExportedImage
             src="/images/agri6.jpg"
             alt="Caroucel"
-            className="w-full h-full   z-0 object-cover"
-            width={0}
-            height={0}
+            width={10}
+            height={10}
             sizes="100vw"
+            className="z-0 object-cover w-[100%] h-[100%]"
           />
 
           <div className=" img-text">
@@ -139,7 +139,10 @@ export default function CarouselSec() {
           <img
             src="/images/engineering4.jpg"
             alt="Caroucel"
-            className="w-full  h-full   z-0 object-cover"
+            width={10}
+            height={10}
+            sizes="100vw"
+            className="z-0 object-cover w-[100%] h-[100%]"
           />
 
           <div className=" img-text1">
@@ -166,12 +169,18 @@ export default function CarouselSec() {
           <img
             src="/images/mbbs3.jpg"
             alt="Caroucel"
-            className="w-full h-full   z-0 object-cover object-top"
+            width={10}
+            height={10}
+            sizes="100vw"
+            className="z-0 object-cover object-top w-[100%] h-[100%]"
           />
 
           <div className=" img-text">
-            <h1 className=" animeslide-heading max-md:text-black max-md:font-bold " data-animate="bottom">
-              MBBS 
+            <h1
+              className=" animeslide-heading max-md:text-black max-md:font-bold "
+              data-animate="bottom"
+            >
+              MBBS
             </h1>
             <p class="animeslide-desc" data-animate="bottom">
               Embark on a rewarding career in medicine with our comprehensive
@@ -193,7 +202,10 @@ export default function CarouselSec() {
           <img
             src="/images/medicine3.jpg"
             alt="Caroucel"
-            className="w-full  h-full  z-0 object-cover  "
+            width={10}
+            height={10}
+            sizes="100vw"
+            className="z-0 object-cover w-[100%] h-[100%]"
           />
 
           <div className=" img-text2">
@@ -219,12 +231,18 @@ export default function CarouselSec() {
         <SwiperSlide className=" swiper-slide animeslide-slide">
           <img
             src="/images/degree1.jpg"
-            alt="Caroucel"
-            className="w-full h-full   z-0 object-cover"
+            alt="Caroucel" 
+            width={10}
+            height={10}
+            sizes="100vw"
+            className="z-0 object-cover w-[100%] h-[100%]"
           />
 
           <div className=" img-text4">
-            <h1 className=" animeslide-heading text-[80px] max-md:text-[30px]" data-animate="bottom">
+            <h1
+              className=" animeslide-heading text-[80px] max-md:text-[30px]"
+              data-animate="bottom"
+            >
               Distance/Online Education
             </h1>
             <p class="animeslide-desc" data-animate="bottom">
